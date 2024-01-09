@@ -65,9 +65,9 @@ const canvas = document.getElementById('gameCanvas');
           pipes[i].x -= 2;
 
           if (
-            bird.x + 20 > pipes[i].x &&
-            bird.x - 20 < pipes[i].x + pipes[i].width &&
-            (bird.y - 20 < pipes[i].topHeight || bird.y + 20 > pipes[i].bottomY)
+            bird.x + 5 > pipes[i].x &&
+            bird.x - 5 < pipes[i].x + pipes[i].width &&
+            (bird.y - 5 < pipes[i].topHeight || bird.y + 5 > pipes[i].bottomY)
           ) {
             gameOver = true;
             showMenu();
