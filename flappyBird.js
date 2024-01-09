@@ -2,7 +2,7 @@ const canvas = document.getElementById('gameCanvas');
     const ctx = canvas.getContext('2d');
 
     const birdImage = new Image();
-    birdImage.src = 'assets/Niks_bg.png';
+    birdImage.src = 'assets/niks_bg.png';
 
     const pipeImage = new Image();
     pipeImage.src = 'assets/pipe.png';
